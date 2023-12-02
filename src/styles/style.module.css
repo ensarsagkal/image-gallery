@@ -1,0 +1,17 @@
+.picture{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}
+.container{
+    display: inline-block;
+    margin: 1.5rem;
+    overflow: hidden;
+ 
+}
+.picture:hover{
+    transform: scale(1.3);
+
+    opacity: .83;
+    cursor: zoom-in;
+}

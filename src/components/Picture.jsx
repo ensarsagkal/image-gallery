@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styleStyle from "../styles/style.module.css" ;
+
 
 const Picture = ({img}) => {
   return (
-    <div>
-         <img src={img.large} alt="" />
-    </div>
+
+         <img className={styleStyle.picture} src={img.large} alt="" />
+    
   )
 }
 

@@ -1,5 +1,9 @@
 import Picture from "../components/Picture";
 import data from "../helper/data"
+import styleStyle from "../styles/style.module.css" ;
+
+
+
 
 const Homepage = () => {
     console.log(data);
@@ -8,9 +12,9 @@ const Homepage = () => {
     <div>
       {data.map((item,index)=>(
      
-        <div key={index}>
+        <div key={index} className={styleStyle.container}>
              <Picture img={item.src}/>
-          <h3>{item.photographer}</h3>
+             <h3>{item.photographer}</h3>
         </div>
 
 

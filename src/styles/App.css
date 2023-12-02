@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.title{
+ text-align: center;
+ background-color: aquamarine;
+ color: fuchsia;
+ padding: 2rem;
+}
