@@ -1,12 +1,12 @@
-import data from "./data";
-import Image from "./image";
+import Homepage from "./pages/Homepage";
+
+
 
 function App() {
-//  console.log(data);
-// const {photographer, src:{large}}=data
+
   return (
     <div>
-    <Image data={data}/>
+      <Homepage/>
     </div>
   );
 }
